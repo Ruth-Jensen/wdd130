@@ -6,26 +6,26 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  /* 2e525c-448087-c2bb55-dad695 */
-  --primary-color: #2e525c;
-  --secondary-color: #448087;
-  --accent1-color: #c2bb55;
-  --accent2-color: #dad695;
+  /* ff0000-ffb300-0b0b09-ffedc2 */
+  --primary-color: #ff0000;
+  --secondary-color: #ffb300;
+  --accent1-color: #0b0b09;
+  --accent2-color: #ffedc2;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Bad Script";
   --paragraph-font: Nunito, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #2e525c;  /* headlines on a white background */ 
-  --headline-color-on-color: #dad695; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #2e525c; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #dad695; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #2e525c  ;
-  --nav-link-color: #2e525c;
-  --nav-background-color: #c2bb55;
-  --nav-hover-link-color: #dad695;
-  --nav-hover-background-color: #448087;
+  --headline-color-on-white: #ff0000;  /* headlines on a white background */ 
+  --headline-color-on-color: #ffb300; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #0b0b09; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #ffedc2; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #0b0b09  ;
+  --nav-link-color: #ffedc2;
+  --nav-background-color: #ff0000;
+  --nav-hover-link-color: #ffb300;
+  --nav-hover-background-color: #0b0b09;
 }
 
 
