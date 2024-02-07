@@ -1,5 +1,20 @@
 /* 482A5E 911d30 ef3c16 ff7014 feca1f ffecc0 */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&display=swap');
 
+/* Add a border-radius of 5px to the .book, .join selector.
+Add a border of 10px solid #black to a .card-img selector.
+Use one of your colors from your site plan instead of black if you wish.
+Add box-sizing: border-box; to the main section img selector. Now the border and image will be included in the size of those images. */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bungee", Georgia, serif;
+}
+p {
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+h2{
+    margin: 0;
+}
 #content{
     max-width: 1600px;
 }
@@ -18,6 +33,8 @@ main section{
 body {
     color: #feca1f; 
     background-color: #482A5E;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#feca1f;
@@ -26,6 +43,8 @@ header {
 footer{
     background-color:#feca1f;
     color: #482A5E;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     background-color:#feca1f;
@@ -35,30 +54,43 @@ footer a:hover{
     color:#feca1f;
     background-color: #482A5E; 
 }
+footer .social img{
+    padding-top: 15px;
+}
 nav a{
     text-align: center;
-    color:#feca1f;
-    background-color: #482A5E;
-}
-nav a:hover {
     background-color:#feca1f;
     color: #482A5E;
+    padding: 35px;
+}
+nav a:hover {
+    background-color:#E8B627;
+    color: #5F3E57;
 }
 .book{
-    color:#feca1f;
-    background-color:#482A5E;
-}
-.book:hover{
     background-color:#feca1f;
     color:#482A5E;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover{
+    background-color:#FFECC0;
+    color:#765B77;
 }
 .join{
-    color:#482A5E;
-    background-color: #feca1f;
-}
-.join:hover{
     background-color:#482A5E;
     color: #feca1f;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+.join:hover{
+    background-color:#765B77;
+    color: #FFECC0;
 }
 #background{
     height: 725px;
@@ -68,10 +100,16 @@ nav a:hover {
 .msg{
     color: #482A5E;  
     background-color: #feca1f; 
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title h4{
     color: #482A5E;  
-    background-color: #feca1f; 
+    background-color: #feca1f;
+}
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2{
     color: #482A5E;  
@@ -80,13 +118,34 @@ nav a:hover {
 .msg p{
     color: #482A5E;  
     background-color: #feca1f; 
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;   
 }
 #hero-img{
     width: 100%;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #feca1f;
+}
+main section img {
+    box-sizing: border-box;
 }
