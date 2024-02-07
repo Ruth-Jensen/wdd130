@@ -1,0 +1,92 @@
+/* 482A5E 911d30 ef3c16 ff7014 feca1f ffecc0 */
+
+#content{
+    max-width: 1600px;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+body {
+    color: #feca1f; 
+    background-color: #482A5E;
+}
+header {
+    background-color:#feca1f;
+    color: #482A5E;
+}
+footer{
+    background-color:#feca1f;
+    color: #482A5E;
+}
+footer a{
+    background-color:#feca1f;
+    color: #482A5E;
+}
+footer a:hover{
+    color:#feca1f;
+    background-color: #482A5E; 
+}
+nav a{
+    text-align: center;
+    color:#feca1f;
+    background-color: #482A5E;
+}
+nav a:hover {
+    background-color:#feca1f;
+    color: #482A5E;
+}
+.book{
+    color:#feca1f;
+    background-color:#482A5E;
+}
+.book:hover{
+    background-color:#feca1f;
+    color:#482A5E;
+}
+.join{
+    color:#482A5E;
+    background-color: #feca1f;
+}
+.join:hover{
+    background-color:#482A5E;
+    color: #feca1f;
+}
+#background{
+    height: 725px;
+    color:#482A5E;
+    background-color: #feca1f;
+}
+.msg{
+    color: #482A5E;  
+    background-color: #feca1f; 
+}
+.home-title h4{
+    color: #482A5E;  
+    background-color: #feca1f; 
+}
+.msg h2{
+    color: #482A5E;  
+    background-color: #feca1f; 
+}
+.msg p{
+    color: #482A5E;  
+    background-color: #feca1f; 
+}
+.icon {
+    width: 80px;
+}
+.logo{
+    width: 80px;   
+}
+#hero-img{
+    width: 100%;
+}
