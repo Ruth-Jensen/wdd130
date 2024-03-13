@@ -33,6 +33,7 @@ Fonts are separated by a | */
 .imgs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  
 }
 .icons  {
   display: grid;
@@ -40,6 +41,7 @@ Fonts are separated by a | */
 }
 img {
   max-height: 300px;
+  padding: 1em;
 }
 .faq p {
   font-weight: bold;
