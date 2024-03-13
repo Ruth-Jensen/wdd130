@@ -28,6 +28,33 @@ Fonts are separated by a | */
   --nav-hover-background-color: #9A005A;
 }
 
+/* stuff I added */
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.icons  {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+img {
+  max-height: 300px;
+}
+.faq p {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0;
+}
+i{
+  color: #9A005A;
+}
+li {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 0;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -37,7 +64,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  background-color: #f5ebe0;
+  background-color: #f5ebe0; 
 }
 img {
   display: block;
@@ -69,6 +96,9 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+}
+ul {
+  list-style-position: inside;
 }
 .colors {
   width: 100%;
