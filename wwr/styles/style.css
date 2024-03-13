@@ -94,7 +94,8 @@ footer a{
 }
 footer a:hover{
     background-color:#feca1f;
-    color: black;
+    color: #351E45;
+    font-weight: bold;
     /* color: #482A5E;  */
 }
 footer .social img{
@@ -110,6 +111,7 @@ nav a{
 nav a:hover {
     background-color:#E8B627;
     color: #5F3E57;
+    font-weight: bold;
 }
 .join{
 
