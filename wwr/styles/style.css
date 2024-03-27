@@ -76,7 +76,7 @@ header {
     background-color:#feca1f;
     color: #482A5E;
 }
-.footer1{
+footer{
     background-color:#feca1f;
     color: #482A5E;
     padding: 25px 50px;
@@ -85,18 +85,20 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-.footer1 a{
+footer a{
     text-decoration: none;
     background-color:#feca1f;
     color: #482A5E;
+    font-weight: bold;
+    /* padding-left: 2px;
+    padding-right: 2px; */
 }
-.footer1 a:hover{
+footer a:hover{
     background-color:#feca1f;
-    color: #351E45;
-    /* font-weight: bold; */
-    /* color: #482A5E;  */
+    /* color: #351E45; */
+    color: black; 
 }
-.footer1 .social img{
+footer .social img{
     padding-top: 15px;
 }
 nav a{
@@ -326,12 +328,16 @@ main section img {
     text-decoration: none;
     background-color:#feca1f;
     color: #482A5E;
+    font-weight: bold;
+    /* padding-left: 2px;
+    padding-right: 2px; */
 }
 .footer2 a:hover{
     background-color:#feca1f;
-    color: #351E45;
-    /* font-weight: bold; */
-    /* color: #482A5E;  */
+    color: black; 
+    /* color: #351E45; */
+    /* padding-left: 0;
+    padding-right: 0; */
 }
 .footer2 .social img{
     padding-top: 15px;
@@ -378,7 +384,7 @@ form {
     width: 400px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #feca1f;
+    border: 1px solid #ccc;
     border-radius: 1em;
   }
   
