@@ -18,35 +18,39 @@ h1, h2, h3, h4, h5, h6{
 }
 .nav-bar a{
     text-decoration: none;
-    height: 100%;
+    height: 80%;
     width: 100%;
     font-family: 'Mrs Saint Delafield';
     font-size: 3em;
     background-color: #f5ebe0;
     color: #9A005A;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    border-bottom: 5px double #9A005A00;
+    border-top: 5px double #9A005A00;
 }
 .nav-bar-2 a{
     text-decoration: none;
-    height: 100%;
+    height: 90%;
     width: 100%;
     font-family: 'Mrs Saint Delafield';
     font-size: 3em;
     background-color: #f5ebe0;
     color: #9A005A;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     border-bottom: 5px double #9A005A00;
     border-top: 5px double #9A005A00;
 }
 .nav-bar a:hover{
-    background-color: #9A005A;
-    color: #f5ebe0;
+    /* background-color: #9A005A;
+    color: #f5ebe0; */
+    border-bottom: 5px double #9A005A;
+    border-top: 5px double #9A005A;
 }
 .nav-bar-2 a:hover{
     /* background-color: #9A005A;
