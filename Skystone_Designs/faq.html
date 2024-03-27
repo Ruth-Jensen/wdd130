@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commissions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/sd.css">
+</head>
+<body>
+
+    <section class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="faq.html">Commissions</a>
+        <img src="Images/Skystone.png" alt="logo" class="logo">
+        <a href="#faq-title">FAQ</a>
+        <a href="index.html">About Me</a>
+        <a href="site-plan.html">Site Plan</a>
+    </section>
+
+    <header>
+        <h1 class="header-text">Hello! Welcome to Skystone Designs, where your creative journey begins!</h1>
+        <img src="Images/design04.png" alt="header image" class="header-image">
+    </header>
+
+    <main>
+        <div class="form-container" id="login-form" style="display: block;">
+            <!-- <h2>Login Form</h2> -->
+            <form>
+                <ul>
+                    <li>
+                    <label for="name">Username:</label>
+                    <input type="text" id="username" name="user_name" />
+                    </li>
+                    <li>
+                    <label for="passward"> Password:</label>
+                    <input type="password" id="user_password" name="user_password" />
+                    </li>
+                    <li class="button">
+                    <button type="button" onclick="showNextForm('payment-form')"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+                    </li>                  
+                </ul>
+            </form>
+        </div>
+        
+        <div class="form-container" id="payment-form" style="display: none;">
+            <!-- <h2>Payment Form</h2> -->
+            <form>
+                <ul>
+                    <li>
+                    <label for="name"><i class="fa-solid fa-cart-shopping"></i> Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                    <label for="mail"><i class="fa-solid fa-envelope"></i> Email:</label>
+                    <input type="email" id="mail" name="user_email" />
+                    </li>
+                    <li>
+                    <label for="phonenumber"><i class="fa-solid fa-phone"></i> Phone Number:</label>
+                    <input type="tel" id="number" name="user_phone_number" />
+                    </li>
+                    <li>
+                    <label for="credit_card"><i class="fa-solid fa-credit-card"></i> Credit Card:</label>
+                    <input type="credit card" id="credit_card" name="credit_card" />
+                    </li>
+                    <li class="button">
+                    <button type="button" onclick="showNextForm('commission-form')">Next</button>
+                    </li>                  
+                </ul>
+            </form>
+        </div>
+        
+        <div class="form-container" id="commission-form" style="display: none;">
+            <!-- <h2>Commission Form</h2> -->
+            <form onsubmit="return showConfirmation()">
+                <ul>
+                    <li>
+                        <label for="character_name"><i class="fa-solid fa-file"></i> Character Name:</label>
+                        <input type="text" id="character_name" name="character_name" />
+                    </li>
+                    <li>
+                        <label for="msg"><i class="fa-solid fa-file"></i> Character Description:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                    <button type="submit">Submit Commission</button>
+                    </li>                  
+                </ul>
+                <div id="confirmation-message" class="confirmation-message" style="display: none;">
+                    <h2>Thank you for your submission!</h2>
+                    <p>We'll be in touch with you shortly.</p>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <p id="faq-title"><i class="fa-solid fa-clipboard-question"></i> FAQ <i class="fa-solid fa-clipboard-question"></i></p>
+    <section class="faq-section">
+
+        <div class="faq">
+            <p><b>**Can I request revisions?**</b></p>
+            <p>Absolutely! First two times are on the house, and after that, it's $10 extra per tweak.</p>
+        </div>
+
+        <div class="faq">
+            <p><b>**Any content guidelines?**</b></p>
+            <p>Yep, keeping it classy – no swear words or nudity.</p>
+        </div>
+
+        <div class="faq">
+            <p><b>**What payment methods?**</b></p>
+            <p>Credit Card, Debit Card, Bank Transfer, or Venmo – your call.</p>
+        </div>
+
+        <div class="faq">
+            <p><b>**How much for a commission?**</b></p>
+            <p>Starting at $30 for logos, $40 for tattoos, $50 for background design and $60 for characters. Got something unique? Estimate via email before we dive in.</p>
+        </div>
+
+        <div class="faq">
+            <p><b>**How do we chat during the process?**</b></p>
+            <p>Hit me up via email, phone call, or text – keeping it easy for your creative journey!</p>
+        </div>
+
+        <div class="faq">
+            <p><b>**How long does it take for a project to be completed?**</b></p>
+            <p>Flexibility is key! On average, projects wrap up within a week or two, but it's all about your pace and responsiveness. Let's make the creative journey enjoyable for you!</p>
+        </div>
+
+        <!-- <i class="fa-solid fa-right-from-bracket fa-5x"></i> -->
+    </section>
+
+    <footer>
+
+        <p class="copyright">Skystone Designs &copy; Ruth Jensen</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="faq.html">Frequently Asked Questions</a></p>
+
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            
+            <a href="https://twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            
+            <a href="https://instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+<script>
+    function showNextForm(nextFormId) {
+    var currentForm = event.target.closest('form');
+    currentForm.style.display = 'none';
+
+    var nextForm = document.getElementById(nextFormId);
+    nextForm.style.display = 'block';
+
+    return false; // Prevent form submission
+    }
+
+    function showConfirmation() {
+    var confirmationMessage = document.getElementById('confirmation-message');
+    confirmationMessage.style.display = 'block';
+
+    return false; // Prevent form submission
+    }
+</script>
+
+</html>

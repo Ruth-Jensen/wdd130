@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Cormorant+SC:wght@300;400;500;600;700&family=Dosis:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cherish&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Cormorant+SC:wght@300;400;500;600;700&family=Dosis:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mrs+Saint+Delafield&display=swap');
+/* d5bdaf - e3d5ca - f5ebe0 - d6ccc2 - edede9 - 9A005A */
+body{
+    padding: 0;
+    margin: 0 auto;
+    background-color: #f5ebe0;
+}
+p{
+    font-family: dosis, sans-serif;
+    color: #9A005A;
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-variant: small-caps;
+    color: #9A005A;
+}
+.nav-bar a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-family: 'Mrs Saint Delafield';
+    font-size: 3em;
+    background-color: #f5ebe0;
+    color: #9A005A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar-2 a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-family: 'Mrs Saint Delafield';
+    font-size: 3em;
+    background-color: #f5ebe0;
+    color: #9A005A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar a:hover{
+    background-color: #9A005A;
+    color: #f5ebe0;
+}
+.nav-bar-2 a:hover{
+    background-color: #9A005A;
+    color: #f5ebe0;
+}
+.cursive{
+    font-family: 'Mrs Saint Delafield';
+    color: #9A005A;
+    text-align: center;
+    font-size: 3em;
+}
+.logo{
+    /* position: absolute; */
+    max-height: 100px;
+}
+.nav-bar{
+    padding: 5px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+    text-align: center;
+    /* background-color: #d5bdaf; */
+}
+.nav-bar-2{
+    padding: 5px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    text-align: center;
+    /* background-color: #d5bdaf; */
+}
+footer{
+    background-color: #d5bdaf;
+    color: #f5ebe0;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    font-family: 'Mrs Saint Delafield';
+    font-size: 2em;
+    text-decoration: none;
+    background-color:#d5bdaf;
+    color: #f5ebe0;
+}
+footer a:hover{
+    background-color:#d5bdaf;
+    color: #9A005A;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.copyright{
+    color: #f5ebe0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    position: relative;
+}
+.header-text{
+    font-size: 3em;
+    position: absolute;
+    top : 0;
+    /* color: white; */
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.header-image {
+    padding-top: 6em;
+    z-index: -1;
+    width: 100%;
+    background-color: #d5bdaf;
+}
+#section-01{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+}
+.section-01-images {
+    width: 80%;
+}
+.section-01-text{
+    margin-left: 5em;
+}
+#section-02{
+    padding: 1em;
+    background-color: #d5bdaf;
+}
+.section-02-text{
+    text-align: center;
+}
+#section-03{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #e3d5ca;
+}
+.section-03-images{
+    /* border-color: #d5bdaf; */
+    border-color: #9A005A;
+    border-style:double;
+    border-width: 10px;
+    /* border-radius: 20%; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 80%;
+}
+#section-04{
+    padding: 3em;
+}
+
+
+
+
+
+
+
+
+
+#dnd{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 240px;
+    background-color: #d5bdaf;
+}
+#dnd img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#portraits{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 240px;
+}
+#portraits img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#logos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 240px;
+    background-color: #d5bdaf;
+}
+#logos img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#tattoos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 240px;
+}
+#tattoos img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#landscapes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 240px;
+    background-color: #d5bdaf;
+}
+#landscapes img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#simpleDesigns{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 240px;
+}
+#simpleDesigns img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #e3d5ca;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center;
+}
+.panel a {
+    text-decoration: none;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-variant: small-caps;
+    font-size: 1em;
+    background-color: #e3d5ca;
+    color: #9A005A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel a:hover {
+    background-color: #9A005A;
+    color: #e3d5ca;
+}
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
+.portfolio-footer{
+    margin-left: 240px;
+}
+
+
+
+
+.faq-section {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.faq{
+    text-align: center;
+    border-radius: 10px;
+    border-color: #9A005A;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em;
+    background-color: #e3d5ca;
+}
+#faq-title{
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+
+form{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e3d5ca;
+
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #9A005A;
+    border-radius: 1em;
+} 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #9A005A;
+}
+form li + li {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 170px;
+    text-align: right;
+}
+input, textarea {
+    font-family: dosis, sans-serif;
+    font-size: 1em;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #9A005A;
+    color: #9A005A;
+}
+input:focus, textarea:focus {
+    border-color: #9A005A;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+button {
+    margin-left: 0.5em;
+    color: #9A005A;
+}
+.confirmation-message p{
+ text-align: center;
+}
+
+.form-container {
+    display: none;
+}
+.visible {
+    display: block;
+}
