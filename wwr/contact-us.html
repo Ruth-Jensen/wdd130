@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raging Rapids Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
         <!--header-->
         <header>
-        </header>
+
+          <!--header-->
+          <a href="index.html" id="logo_link">
+              <img class="logo" src="images/logo-p.png" alt="Raging Rapids Logo">
+          </a>
+          <!--header-->
+          <nav>
+              
+              <a href="index.html">Home</a>
+              <a href="faq.html">FAQ</a>
+              <a href="site-plan-rafting.html">Site Plan</a>
+              <a href="contact-us.html">Contact Us</a>
+          </nav>
+      </header>
 
         <!--header-->
         <div id="hero">
 
             <!--header-->
             <div id="hero-box">
-                <img id="hero-image" src="images/hero3.jpg" alt="People enjoying white water rafting">
+                <img id="hero-image2" src="images/hero3.jpg" alt="People enjoying white water rafting">
             </div>
 
             <!--header-->
-            <section id="hero-msg">
+            <section id="hero-msg3">
                 <h1 class="home-title">Have An Adventure</h1>
                 <h4 class="Memories">Make Memories with Raging Rapids</h4>
-                <div class="button-box">
-                    <a class="book" href="contact-us.html">Book Now</a>
-                </div>
             </section>
 
         </div>
 
         <!--header-->
         <main>
-
-            <!-- <input type="text" value="by default this element is filled with this text" id="feedback"/> -->
-            <textarea id="feedback">
-                by default this element is filled with this text
-            </textarea>
-                
 
             <form action="/my-handling-form-page" method="post">
                 <ul>
@@ -59,10 +64,38 @@
                   </li>                  
                 </ul>
               </form>
+              <!-- <input type="text" value="by default this element is filled with this text" id="feedback"/> -->
+              <p id="placeholder"></p>
+              <textarea id="feedback">
+                by default this element is filled with this text
+              </textarea>
         </main>
 
-        <!--header-->
         <footer>
+
+            <!--header-->
+            <p>Raging Rapids &copy; Ruth Jensen</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contact-us.html">Contact Us</a></p>
+
+            <!--header-->
+            <div class="social">
+                
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook fa-5x"></i>
+                    <!-- <img src="images/facebook.png" alt="fb icon"> -->
+                </a>
+                
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-twitter fa-5x"></i>
+                    <!-- <img src="images/twitter.png" alt="twitter icon"> -->
+                </a>
+                
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fa-brands fa-instagram fa-5x"></i>
+                    <!-- <img src="images/instagram.png" alt="instagram icon"> -->
+                </a>
+            </div>
         </footer>
 
     </div>
@@ -71,6 +104,7 @@
 <script>
     // get the feedback div element so we can do something with it.
     const feedbackElement = document.getElementById('feedback');
+    const placeholderElement = document.getElementById('placeholder');
     // get the form so we can read what was entered in it.
     const formElement = document.forms[0];
     // add a 'listener' to wait for a submission of our form. When that happens run the code below.
@@ -81,6 +115,7 @@
         feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
         // make the feedback element visible.
         feedbackElement.style.display = "block";
+        placeholderElement.style.display = "none";
         // add a class to move everything down so our message doesn't cover it.
         document.body.classList.toggle('moveDown');
     });
