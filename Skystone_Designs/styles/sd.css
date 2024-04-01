@@ -14,7 +14,9 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     font-family: 'Cinzel Decorative', cursive;
     font-variant: small-caps;
-    color: #9A005A;
+    /* color: #9A005A; */
+    
+    color: #69327F;
 }
 .nav-bar a{
     text-decoration: none;
@@ -35,6 +37,8 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
     height: 90%;
     width: 100%;
+    /* font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.5em; */
     font-family: 'Mrs Saint Delafield';
     font-size: 3em;
     background-color: #f5ebe0;
@@ -47,16 +51,16 @@ h1, h2, h3, h4, h5, h6{
     border-top: 5px double #9A005A00;
 }
 .nav-bar a:hover{
-    /* background-color: #9A005A;
-    color: #f5ebe0; */
-    border-bottom: 5px double #9A005A;
-    border-top: 5px double #9A005A;
+    /* background-color: #9A005A; */
+    color: #69327F;
+    border-bottom: 5px double #69327F;
+    border-top: 5px double #69327F;
 }
 .nav-bar-2 a:hover{
-    /* background-color: #9A005A;
-    color: #f5ebe0; */
-    border-bottom: 5px double #9A005A;
-    border-top: 5px double #9A005A;
+    /* background-color: #9A005A; */
+    color: #69327F;
+    border-bottom: 5px double #69327F;
+    border-top: 5px double #69327F;
 }
 .cursive{
     font-family: 'Mrs Saint Delafield';
@@ -191,13 +195,13 @@ header{
     
 }
 .section-04-text{
-    word-spacing: 2px;
-    line-height: 1.5;
+    /* word-spacing: 2px;
+    line-height: 1.5; */
     
     /* letter-spacing: 1px; */
 }
 .text-margin{
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 .indexed_list{
     text-indent: 2em;
@@ -218,8 +222,8 @@ header{
     padding: 20px;
     margin-left: 240px;
     background-color: #d5bdaf;
-    border-bottom: 2px solid #9A005A;
-    border-top: 2px solid #9A005A;
+    border-bottom: 2px solid #69327F;
+    border-top: 2px solid #69327F;
 }
 #dnd img{
     width: 100%;
@@ -245,8 +249,8 @@ header{
     padding: 20px;
     margin-left: 240px;
     background-color: #d5bdaf;
-    border-bottom: 2px solid #9A005A;
-    border-top: 2px solid #9A005A;
+    border-bottom: 2px solid #69327F;
+    border-top: 2px solid #69327F;
 }
 #simpleDesigns img{
     width: 100%;
@@ -272,8 +276,8 @@ header{
     padding: 20px;
     margin-left: 240px;
     background-color: #d5bdaf;
-    border-bottom: 2px solid #9A005A;
-    border-top: 2px solid #9A005A;
+    border-bottom: 2px solid #69327F;
+    border-top: 2px solid #69327F;
 }
 #tattoos img{
     width: 100%;
@@ -286,7 +290,7 @@ header{
     gap: 20px;
     padding: 20px;
     margin-left: 240px;
-    border-bottom: 2px solid #9A005A;
+    border-bottom: 2px solid #69327F;
 }
 #logos img{
     width: 100%;
@@ -334,7 +338,7 @@ header{
 }
 .portfolio_title{
     grid-column: 1/-1;
-    border-bottom: 5px double #9A005A;
+    border-bottom: 5px double #69327F;
     border-radius: 20px;
 }
 
@@ -364,6 +368,22 @@ header{
 
 
 
+
+b, strong{
+    /* color: #35166D; */
+    /* color: #1F1E4B; */
+    /* color: #493775; */
+    color: #69327F;
+    /* color: #7C216D; */
+}
+
+
+
+
+
+.question{
+    font-size: 1.2em;
+}
 form{
     position: absolute;
     top: 400px;
@@ -376,6 +396,10 @@ form{
     padding: 1em;
     border: 1px solid #9A005A;
     border-radius: 1em;
+
+    height: 300px;
+    display: grid;
+    place-items: center;
 } 
 ul {
     list-style: none;
@@ -386,15 +410,18 @@ ul {
 form li + li {
     margin-top: 1em;
 }
+form ul{
+}
 label {
     display: inline-block;
     width: 170px;
-    text-align: right;
+    /* text-align: right; */
 }
 input, textarea {
     font-family: dosis, sans-serif;
     font-size: 1em;
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
     box-sizing: border-box;
     border: 1px solid #9A005A;
     color: #9A005A;
